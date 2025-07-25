@@ -13,7 +13,7 @@ modded class ExpansionAirdropContainerBase
 
 	float Zen_GetWaterDepth()
 	{
-		return GetGame().GetWaterDepth(GetPosition())
+		return GetGame().GetWaterDepth(GetPosition());
 	}
 
 	bool Zen_ShouldFloatOnWater()
